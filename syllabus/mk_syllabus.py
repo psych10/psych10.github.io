@@ -7,8 +7,34 @@ import collections
 import re
 import time
 import pandas
-
 from get_syllabus2 import get_syllabus
+import subprocess
+from datetime import date, timedelta
+
+def run_shell_cmd(cmd,cwd=[],verbose=False):
+    """ run a command in the shell using Popen
+    """
+    stdout_holder = []
+    stderr_holder = []
+
+    if cwd:
+        process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,
+                                        stderr=subprocess.PIPE,cwd=cwd)
+    else:
+        process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,
+                                        stderr=subprocess.PIPE)
+
+    for line in process.stdout:
+        if verbose:
+             print(line.strip().decode('UTF-8'))
+        stdout_holder.append(line.strip().decode('UTF-8'))
+    for line in process.stderr:
+        if verbose:
+            print(line.strip().decode('UTF-8'))
+        stderr_holder.append(line.strip().decode('UTF-8'))
+
+    process.wait()
+    return (stdout_holder,stderr_holder)
 
 
 def replacemany(adict, astring):
@@ -28,109 +54,52 @@ syll = get_syllabus()
 df = pandas.DataFrame(syll[1:],columns=syll[0])
 df = df.loc[df.Week!='', :]  # remove empty rows
 
-# columns to use for syllabus
-syll_columns = ['Date', 'Topic', 'Reading']
 
 # save objectives to write to a separate file listing all of them
 objectives = collections.OrderedDict()
 
 outfile = 'index.md'
+prospectus_file = '../prospectus/index.md'
+
+# first open prospectus and add it
+with open (prospectus_file) as f:
+    prospectus_lines = f.readlines()
+
+# columns to use for syllabus
+syll_columns = ['Learning goals', 'Readings', 'Lecture videos', 'Tutorials', 'Problem set']
+
+start_date = '2021-01-11'
+
+start_date_dt = date.fromisoformat(start_date)
+
 with open(outfile, 'w') as f:
-    f.write('---\nlayout: default\ntitle: Psych 10: Syllabus\n---\n') # noqa
-    f.write('## Syllabus\n\nClick on the date for more information about each lecture\n\n') # noqa
-    f.write('Detailed version of the full syllabus is available [here](../full_syllabus)\n\n') # noqa
-    f.write('| '+'|'.join(syll_columns) + '|\n')
+    f.write('---\nlayout: default\ntitle: Psych 10/Stats 60 Syllabus - Winter 2021\n---\n\n') # noqa
+    for p in prospectus_lines:
+        f.write(p)
 
-    # create separator
-    sep = []
-    for i in range(len(syll_columns)):
-        sep.append('---')
-    f.write('| ' + '|'.join(sep) + '|\n')
+    f.write('## Course modules\n\nNote: This schedule is a guide for the course and is subject to change with advance notice.\n\n')
 
-    # loop through rows
-    lecturectr = 1
-    for i in df.index:
-        df_row = df.loc[i,:]
+    for module_idx in df.index:
+        module_start_date = (start_date_dt + timedelta(days = 7 * module_idx)).strftime('%B %d')
+        module_due_date = (start_date_dt + timedelta(days = 7 * (module_idx + 1) - 1)).strftime('%B %d')
+        module_avail_date = (start_date_dt + timedelta(days = -21 * module_idx)).strftime('%B %d')
+        if module_avail_date < start_date_dt:
+            module_avail_date = start_date_dt
+        f.write(f'## Module {df.loc[module_idx, "Week"]}: {df.loc[module_idx, "Module Topic"]}\n\n') # noqa
 
-        if df_row.Topic.lower().find('no class') > -1:
-            noclass = True
-        else:
-            noclass = False
+        f.write(f'*Start date*: {module_start_date}\n\n')
+        f.write(f'*Due date for all components*: {module_due_date}\n\n')
+        f.write(f'*Available as of*: {module_avail_date}\n\n')
+    
+        for section in syll_columns:
+            if len(df.loc[module_idx, section]) > 0:
+                f.write(f'### {section}:\n\n')
+                f.write(f"{df.loc[module_idx, section]}\n")
+                f.write('\n')
 
-        date = df_row.Date
-        topic = '**' + df_row.Topic.replace('\n', '<br>') + '**'
-        if df_row.Reading is None:
-            reading = ''
-        else:
-            reading = df_row.Reading.replace('\n', '<br>')
-
-        # create foldout detail
-
-        # add expandable section with learning objectives and links
-        details = ''
-        if df_row['Learning Objectives'] is not None:
-            learnobj = df_row['Learning Objectives'].split('\n')
-            if len(learnobj) > 0:
-                details += '<details><br>Learning Objectives:<br><br>After this lecture, you should be able to:<br>' # noqa
-                groupname = df_row.Topic.split(',')[0]
-                if not groupname in objectives:
-                    objectives[groupname] = []
-                for li, l in enumerate(learnobj):
-                    if len(l) == 0:
-                        continue
-                    objectives[groupname].append(l)
-                    details += '* %s<br>' % l
-                print(details)
-
-        if df_row['Links'] is not None:
-            links = df_row['Links'].split('\n')
-            if len(links[0]) > 0:
-                details += '<br>Links:<br>'
-                for li, l in enumerate(links):
-                    details += '* %s<br>' % l
-        if details is not '':
-            details += '</details><br>'
-
-        if noclass:
-            rowcontent =  [df_row.Date, '**' + df_row.Topic + '**', '']
-        else:
-            rowcontent = [
-                df_row.Date,
-                '**' + df_row.Topic + '**' + details,
-                reading]
-
-        f.write('| ' + '|'.join(rowcontent) + '|\n')
-
-# make a fully expanded version of the syllabus
-
-adict = {'<details>': '<br>', '</details>': ''}
-
-short_syllabus = open('index.md').readlines()
-if not os.path.exists('../full_syllabus'):
-    os.mkdir('../full_syllabus')
-
-prospectus = open('../prospectus/index.md').readlines()
-ssyl = open('index.md').readlines()
-
-with open('../full_syllabus/index.md', 'w') as f:
-    f.write('---\nlayout: default\ntitle: Psych 10: Full Syllabus\n---\n') # noqa
-    f.write('Revised %s' % time.strftime("%m/%d/%Y"))
-    for l in prospectus[4:]:
-        f.write(l)
-    f.write('## Class Schedule\n')
-    for l in short_syllabus[9:]:
-        f.write(replacemany(adict, l))
-
-if not os.path.exists("../objectives"):
-    os.mkdir('../objectives')
-with open('../objectives/index.md', 'w') as f:
-    f.write('---\nlayout: default\ntitle: Psych 10: Learning Objectives\n---\n') # noqa
-    f.write('## Learning objectives\n\n')
-    f.write('Students should be able to do each of the following by the end of this course:\n\n') # noqa
-
-    for k in objectives.keys():
-        if len(objectives[k]) == 0:
-            continue
-        f.write('\n### %s\n' % k)
-        for o in objectives[k]:
-            f.write('* %s\n' % o)
+margin_cm = 2
+args = {'pdf': f'-V geometry:margin={margin_cm}cm',
+        'html': ''}
+for output_type in ['pdf', 'html']:
+    cmd_output = run_shell_cmd(f'pandoc -s {outfile} -o syllabus.{output_type} {args[output_type]}')
+    print(cmd_output)
