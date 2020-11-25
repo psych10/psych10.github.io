@@ -1,108 +1,148 @@
----
-layout: default
-title: Psych 10: Overview
----
+## Teaching team
 
-## Overview of the course
+- Professor: Russ Poldrack (he/him)
+    - Contact: russpold@stanford.edu
+    - Virtual office/co-working hours: 
+        - Mondays, 8-9:30 AM PST
+        - Wednesdays 1-3 PM PST
+- TAs:
+    - Head TA: Nathan Kong (he/him)
+        - Contact: nclkong@stanford.edu
+        - Virtual office hours:
+    - Sai Auelua-Toomey (he/him)
+        - Contact: sakaria4@stanford.edu
+        - Virtual office hours:
+    - Aaron Chuey (he/him)
+        - Contact: chuey@stanford.edu
+        - Virtual office hours:
+    - Insub Kim (he/him)
+        - Contact: insubkim@stanford.edu
+        - Virtual office hours:
+    - Polly Moser (she/her)
+        - Contact: pmoser2@stanford.edu
+        - Virtual office hours:
+    - Erik Santoro (he/him)
+        - Contact: esantoro@stanford.edu
+        - Virtual office hours:
+
+## Course description
 
 **Rationale**: It is impossible to understand the modern world without an understanding of statistics.  From public opinion polls to clinical trials in medicine to online systems that recommend purchases to us, statistics play a role in nearly every aspect of our lives. The goal of this course is to provide an understanding of the essential concepts and “big ideas” of statistics --- describing data and making decisions and predictions based on data -- as well as the skills to employ these concepts on real data to solve authentic problems. At the end of the course, students will possess:
+
 - *Statistical literacy*: The ability to dissect and understand statistical claims in scientific research and popular media
 - *Statistical ability*: The skills necessary to apply statistical analysis methods to real data
 - *Statistical curiosity*: The interest in further developing their statistical skills and knowledge, and the confidence in their ability to do so
 
 **Instructional philosophy**.  My instructional philosophy is based on the overwhelming scientific evidence that the standard instructional model  (a lecturer talking at students for a long period) is an ineffective way to instill lasting skills and knowledge.  Instead, I will aim for the course to be:
-- *Active*: The classroom experience should be more like a conversation than a one-directional transmission of information.
+
+- *Active*: The learning experience should be more like a conversation than a one-directional transmission of content.
 - *Evidence-based*: Frequent assessments will provide the instructors with ongoing information about student learning, so that we can base the progression of the course on data rather than subjective impressions.
 - *Authentic*: We will engage with real data in all its messiness using real statistical tools, with the goal of learning how to solve real problems and how to avoid common missteps and pitfalls.
 
-Statistics is a broad field, and the goal of this course is not “coverage” of the entire field or simple familiarity with the concepts. Instead, we will work towards a deep understanding and ability to apply a set of core concepts, and we will actively adjust the course based on the results from our daily assessments.
+Statistics is a broad field, and the goal of this course is not “coverage” of the entire field or simple familiarity with the concepts. Instead, we will work towards a deep understanding and ability to apply a set of core concepts, and we will actively adjust the course based on the results from our ongoing assessments.
 
-**Prerequisites**: Students should have a solid understanding of high school mathematics (specifically algebra).  The course will also assume facility with using the internet and a personal computer.
+## Acknowledgment of Challenging Times
 
-**Course Requirements**:  You will need a laptop computer for use in every class.  If you do not have access to a laptop please contact the instructor ASAP and we will help you obtain access to one.
+Students and instructors are all adjusting to the changes and regulations that have been put in place this year in response to COVID-19. We hope that we will all work together as a community to adapt to these times and this new situation as best as we can. We have tried to add flexibility to our course structure and assignments to accommodate anyone who may now be lacking resources they originally thought they would have available. If you find yourself facing additional challenges that make it difficult for you to keep up with the course work, please let me know and we can figure out a way to support you. We will not ask you to explain the details of your situation. So, please do not hesitate to reach out to any of the teaching team members. If you have suggestions for how we might better support your learning in this course, during these trying times, please do not hesitate to let us know. 
 
-**Classrooom response**: We will use [PollEverywhere](http://polleverywhere.com) for responding to questions during class.  You will need a computer or device that enables you to respond during every class session.  Instructions will be provided on how to set up your PollEverywhere account.
 
-**Website**: The primary web site for the class is http://psych10.github.io.  We will use Canvas for in-class online quizzes, to submit assignments, and to post grades.
+## Course structure
 
-**Discussion**.  We will be using Campuswire to allow you to get help efficiently from both your classmates and the instructors ([class Campuswire page](https://campuswire.com/c/GAE5DDA68)). Please post your questions about the course material and course logistics to Campuswire so that everyone can benefit from the answer. We also highly encourage you to answer your classmates’ questions whenever possible – you will get extra practice with the material and receive feedback from the teaching team about your answers (NOTE: TAs will respond between 9am and 8pm). As an added incentive, students who provide frequent, high-quality answers may receive extra credit on their final course grades. Additional guidelines about posting on Campuswire are available on the [Campuswire page](https://campuswire.com). If you did not receive an email invitation to Campuswire, please go to the [class Campuswire page](https://campuswire.com/c/GAE5DDA68) and use the code 4722 to sign up.
+The course has been heavily remodeled for Winter 2021 to adapt it to a virtual learning environment.  The course will be focused around Canvas modules, with one module for each week. Each module will include:
 
-**Materials**: The primary textbook is "Statistical Thinking for the 21st Century", written by Professor Poldrack.  It is available for free at [http://statsthinking21.org](http://statsthinking21.org) as an online book, and can also be downloaded as a PDF or EPUB from the site (using the PDF/EPUB links under the download tab at the top of the page).
+- 1-2 chapters from the freely available online book
+- 3-4 short (5-10 min) lecture videos
+- Web-based R programming tutorials
+- A quiz
+- Every other week there will be a problem set due.   
 
-We will supplement this textbook with other [free online resources](../resources/).
+The modules for the current week as well as the following two modules will be available on Canvas throughout the quarter.  This allows you to get ahead if needed, while still ensuring a spacing of learning across the quarter that is beneficial for learning.
 
-We will use the free [RStudio Cloud](https://rstudio.cloud) service to access the RStudio software.  You will need to create a free account on the service in order to access it - please use your stanford.edu email address to create the account.  You can also install the free [RStudio](https://rstudio.com/products/rstudio/download/#download) software directly on your personal computer if you prefer.
+There will be synchronous sessions via Zoom at the scheduled class time: MWF, 10:30-11:50 AM PST; you can find the links to these sessions on Canvas. Each student will be expected to attend at least one of these per week, or complete a makeup assignment.  The synchronous sessions will follow a standard thematic organization each week:
 
-Lecture slides will be available on the Canvas site. The slides are not intended to replace attendance, since much of the class activity will go beyond the slides.
+- Monday: Hands-on exercises and group work
+- Wednesday: Review of problem set (in weeks after a PSet was due), and coding exercises (including live coding by the professor and group coding exercises)
+- Friday: Q&A and review of major concepts
 
-The VPTL office offers tutoring for this class by appointment, which can be scheduled [here](https://vptl.stanford.edu/students/tutoring-foreign-language-practice).
+## Virtual learning: norms and expectations
 
-Stanford University and its instructors are committed to ensuring that all courses are financially accessible to all students. If you are an undergraduate who needs assistance with the cost of course textbooks, supplies, materials and/or fees, you are welcome to approach me directly. If would prefer not to approach me directly, please note that you can ask the Diversity & First-Gen Office for assistance by completing their [questionnaire on course textbooks & supplies](http://tinyurl.com/jpqbarn) or by contacting Joseph Brown, the Associate Director of the Diversity and First-Gen Office (jlbrown@stanford.edu; Old Union Room 207). Dr. Brown is available to connect you with resources and support while ensuring your privacy.
+In order to make the best of Zoom-based meetings, please observe the following guidelines:
 
-## Assessment and grading
+- While you are not required to keep your video turned on during synchronous sessions, we ask that you keep it on if possible as it allows more personal connection between students and instructors.
+- Keep yourself muted unless you are speaking.
+- If you wish to speak, using the Raise Hand button in Zoom and wait to be called upon.
+- Once you have finished speaking, please mute yourself and lower your hand.
+- You may post questions to the Chat window.
+- Please be very mindful about the use of private chats within Zoom; in general, don't write anything that you wouldn't want the entire class to see.  Remember, there is no delete button...
 
-Grades will be determined as follows:
+Note that you will need to log into Zoom using your Stanford email address.  Please see the [Zoom cheat sheet](https://uit.stanford.edu/sites/default/files/2017/05/30/zoom-cheat-sheet.pdf) for details on how to do this.
 
-- Quizzes (25%)
-- Written assignments/problem sets (35%)
-- Final project writeup and peer review (15%)
-- Final project presentation (5%)
-- Section attendance and participation (20%)
+## Grading
 
-The one lowest quiz and problem set grades will each be dropped to compute the final grade.  Each quiz and written assignment will count equally towards the final grade, based on a percentage of available points.
+We will use a new method of grading in this course, known as *schedule-driven grading*.  There are several important aspects of this grading system:
 
-**Grading scale**. The grading scale will be as follows:
+- All assignments are graded for completion, rather than for correctness
+- Every student starts the quarter with an A+, plus two free passes.  Every missed assignment results in the loss of one half-letter grade (for example, from A+ -> A or B -> B-), except for the first two which are covered by the passes.  For example, if someone misses four assignments across the quarter, they receive an A-.
+- All items in a week's module must be completed by Sunday evening of the following weekend; these deadlines are listed in Canvas and in the module schedule below.
+- Every assignment must be submitted by the stated deadline to receive credit.  The only exceptions will be for students with excused absences (such as athletic trips), students with documented accomodations from the OAE, and students with documented illness.  Any accomodations must be discussed with the teaching team prior to the deadline; no exceptions will be made for work turned in after the deadline unless it was first cleared with the teaching team.
 
-* 97-100: A+
-* 93-96: A
-* 90-92: A-
-* 87-89: B+
+Under this grading system, *you always know what your grade is*, assuming that you complete all of the remaining assignments.
 
-and so on (rounding to the nearest whole number).  We may curve up at the bottom of the scale depending on the distribution, but I will not curve down (i.e. 87 might be better but will never be worse than B+).
+If you need an extension due to an absence for an official University trip, please log your absence *prior to your absence* using this [form](https://docs.google.com/forms/d/e/1FAIpQLScry4WeLeCOWchm9uBDzWkse7kCVbXUZbQOtiMKR4L4RnEBeA/viewform?usp=sf_link). You must complete this form *in advance* to receive the opportunity to make up in-class assessments. Athletes must include the name and email of their athletic advisor when providing a reason for their absence.
 
-**Assignments**
+The components that will be graded include:
 
-There is no midterm or final examination for this class: the scheduled final exam time will be used for a Project Showcase for group projects.  *Attendance at this session is mandatory and will count toward the final project grade.*
+*Quizzes*: Every week there is a quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many time as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect.
 
-Unless otherwise stated, you can use any published resource you wish to complete the assessments (textbook, Internet, etc).  However, you should not discuss the answers with your fellow students in person or electronically unless instructed to do so by the instructors; sharing answers (including computer code) will be viewed as a violation of the Honor Code.
+*Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.
 
-**Weekly quizzes**:  Every week you will complete an online activity (via Canvas) to assess your learning of the important concepts and skills for the previous week.  These will be made available on Friday and will be due at 10:30 AM on Monday; if Monday is a holiday then the deadline will be postponed to Wednesday.
+*Lecture videos*: You must watch each of the lecture videos and complete the quiz questions that are embedded in the lectures.  Each week's videos are worth one half-letter grade in total; you must complete all of the videos to avoid losing the half-letter.
 
-**Weekly assignments**: Most weeks you will be given one written assignment or problem set to complete.  Unless otherwise noted, these will be due at 11:59 PM on Mondays, submitted via Canvas. We will accept late assignments for up to three days after due date; after that, no late submissions will be accepted.  For unexcused late submissions, one point will be deducted for each day that the assignment is late.  Excused late submissions must be accompanied by documentation of an official university function within one day of the due date, or a documented medical excuse.
+*Course meetings*: You must attend at least one synchronous course meeting each week, or complete a makeup assignment by the following Sunday evening.
 
-Coding-based problem sets will be graded using an automated system, supplemented by manual fixes for any incorrectly deducted points.  The automated grading system also compares code across all students to detect any possible sharing of answers.  Any plaigarism or sharing detected will be reported to the Office of Community Standards.
+*Sections*: Sections will be focused on work related to the final project.  You must attend your weekly section meeting, or arrange in advance with your TA for a makeup activity.
 
-Some problem sets will involve completing courses on [Datacamp](http://datacamp.com).  Please note that credit will only be given if courses are completed under the course account using your Stanford.edu email address.
+*Final project*: Each student will participate in a group project with 3-4 other students. The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be given the opportunity to make a short presentation of their results at the finals week party.  There will be several milestons for the final project, which are included under the Final Project module on Canvas; each of these must be submitted by the deadline to avoid loss of credit.
 
-**Sections**: Section attendance is mandatory. If you are unable to attend your assigned section on a given week, you may attend a different section with permission from both section leaders. Requests to attend an alternate section should be made at least 24 hours in advance. Sections will be "labs" in which you can work together on your problem sets and projects with scaffolding from TAs.
+There is no midterm or final examination for this class.
 
-**Final project**: Each student will participate in a group project with 3-4 other students.
-The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be given the opportunity to make a short presentation of their results at the finals week party.
+You can use any published resource you wish to complete the quizzes and problem sets (textbook, Internet, etc).  However, you should not discuss the answers with your fellow students unless instructed to do so by the instructors; sharing answers (including computer code) will be viewed as a violation of the Honor Code, and offending students will be reported to the Office of Community Standards.
 
-A list of some public data resources is provided on the [Resources page](../resources/).
 
-**Excused absences**: If you are going to miss an in-class assessment due to an absence for an official University trip, please log your absence *prior to your absence* using this [form](https://docs.google.com/forms/d/e/1FAIpQLScry4WeLeCOWchm9uBDzWkse7kCVbXUZbQOtiMKR4L4RnEBeA/viewform?usp=sf_link). You must complete this form *in advance* to receive the opportunity to make up in-class assessments. Athletes must include the name and email of their athletic advisor when providing a reason for their absence.
+## Office hours
 
-If you are too ill to come to class, please complete the excused absence form ASAP and additionally contact the teaching team at psych10winter19@gmail.com. See [this page](https://undergrad.stanford.edu/academic-planning/academic-policies/attendance-and-absences) for additional information on Stanford policy regarding missed classes.
+Prof. Poldrack will hold online co-working/office hours on Mondays from 8-9:30 AM PST, and Wednesdays 1-3 PM PST.  See Canvas for the Zoom link.  You should feel free to treat this as a co-working time; Prof. Poldrack will be there to answer  questions as needed, but you can join and lurk without asking any questions if you wish.
 
-**Extra credit**:  There are two possible ways to obtain extra credit:
 
-- Students will be offered extra credit for completing relevant online courses via [DataCamp](http://datacamp.com) throughout
-the quarter.
-- Students will be offered extra credit for submitting corrections or suggestions to the online textbook.
+## Discussion
 
-**Grade disputes**:  Students must wait 24 hours after receiving a grade before they can dispute it, after which disputes must be received within 7 days of receipt of the grade. Grade disputes must be submitted to the instructor by email.
+We will be using Campuswire to allow you to get help efficiently from both your classmates and the instructors ([class Campuswire page](https://campuswire.com/p/G201F21C2)). Please post your questions about the course material and course logistics to Campuswire so that everyone can benefit from the answer. We also highly encourage you to answer your classmates’ questions whenever possible – you will get extra practice with the material and receive feedback from the teaching team about your answers (NOTE: TAs will respond between 9am and 8pm PST). Additional guidelines about posting on Campuswire are available on the [Campuswire page](https://campuswire.com). If you did not receive an email invitation to Campuswire, please go to the [class Campuswire page](https://campuswire.com/c/GAE5DDA68) and use the code 4722 to sign up.
+
+We will also use Slack for in-class discussion and for communication with the teaching team and with your fellow students.  You should have received an invitation to the class Slack channel by the first day of classes - if you didn't, please contact your TA.
+
+
+## Textbook
+
+The primary textbook is "Statistical Thinking for the 21st Century", written by Professor Poldrack.  It is available for free at [http://statsthinking21.org](http://statsthinking21.org) as an online book, and can also be downloaded as a PDF or EPUB from the site (using the PDF/EPUB links under the download tab at the top of the page).
+
 
 ## General course policies
-**Feedback**: We welcome student feedback regarding the course at any point.  Please feel free to email us directly, or leave anonymous feedback for the instructional team by using our [online form](https://poldracklab.wufoo.com/forms/m5bt5c407agqei/).
 
-**Gender expression/identity:**
-This course affirms people of all gender expressions and gender identities. If you prefer to be called a different name than what is indicated on the class roster, please let me know. Feel free to correct me on your preferred gender pronoun. If you have any questions or concerns, please do not hesitate to contact me.
+**Course Privacy Statement:**
+As noted in the University’s recording and broadcasting courses policy, students may not audio or video record class meetings without permission from the instructor. If the instructor grants permission or if the teaching team posts videos themselves, students may keep recordings only for personal use and may not post recordings on the Internet, or otherwise distribute them. These policies protect the privacy rights of instructors and students, and the intellectual property and other rights of the university. Students who need lectures recorded for the purposes of an academic accommodation should contact the Office of Accessible Education. 
 
-**Code of conduct:**
-You are expected to treat the instructional team and your fellow students with courtesy and respect.
-This class should be a harassment-free learning experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. Harassment of any form will not be tolerated.
-If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the instructors. If you are not comfortable approaching the instructional team, you may also contact the [Stanford Office of the Ombuds](https://ombuds.stanford.edu/)
+**Feedback:** We welcome student feedback regarding the course at any point.  Please feel free to email us directly, or leave anonymous feedback for the instructional team by using our [online form](https://poldracklab.wufoo.com/forms/m5bt5c407agqei/).
 
-**Students with Documented Disabilities:**
-Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE).  Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty dated in the current quarter in which the request is being made. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations.  The OAE is located at 563 Salvatierra Walk (phone: 723-1066, URL: http://studentaffairs.stanford.edu/oae).
+**Affordability:** Stanford University and its instructors are committed to ensuring that all courses are financially accessible to all students. If you are an undergraduate who needs assistance with the costs related to this class, you are welcome to approach me directly. If would prefer not to approach me directly, please note that you can ask the Diversity & First-Gen Office for assistance by completing their [questionnaire on course textbooks & supplies](http://tinyurl.com/jpqbarn) or by contacting Joseph Brown, the Associate Director of the Diversity and First-Gen Office (jlbrown@stanford.edu; Old Union Room 207). Dr. Brown is available to connect you with resources and support while ensuring your privacy.
+
+**Respect for Diversity:**  It is our intent that students from all diverse backgrounds, perspectives, and situations be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. We aim to present materials and activities that are respectful of diversity, which may include but not limited to: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, religion, political affiliation, culture, and so on. We acknowledge that there is likely to be a diversity of access to resources among students and plan to support all of you as best as we can. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups. 
+
+All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well. 
+
+**Code of conduct:** You are expected to treat the instructional team and your fellow students with courtesy and respect. This class should be a harassment-free learning experience for everyone regardless of gender, sexuality, disability, age, socioeconomic status, ethnicity, race, religion, political affiliation, culture, or other personal characteristics. Harassment of any form will not be tolerated. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the instructors. If you are not comfortable approaching the instructional team, you may also contact the [Stanford Office of the Ombuds](https://ombuds.stanford.edu/)
+
+**Students with Documented Disabilities:** Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE).  Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty dated in the current quarter in which the request is being made. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations.  The OAE is located at 563 Salvatierra Walk (phone: 723-1066, URL: http://studentaffairs.stanford.edu/oae).
+
+**Support services:** The COVID-19 pandemic is a stressful time for us all. In addition, you may experience a range of other challenges that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance or reduce your ability to participate in daily life. Stanford is committed to advancing the mental health and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, and/or in need of support, services are available. You can learn more about the broad range of confidential mental health services available on campus here https://vaden.stanford.edu/caps-and-wellness/counseling-and-psychological-services-caps
+
+
