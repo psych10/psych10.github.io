@@ -66,30 +66,47 @@ with open (prospectus_file) as f:
     prospectus_lines = f.readlines()
 
 # columns to use for syllabus
-syll_columns = ['Learning goals', 'Readings', 'Lecture videos', 'Tutorials', 'Problem set']
+syll_columns = ['Learning goals', 'Readings', 'Lecture videos',
+                'Tutorials', 'Problem set', 'Final project']
 
 start_date = '2021-01-11'
 
 start_date_dt = date.fromisoformat(start_date)
 
 with open(outfile, 'w') as f:
-    f.write('---\nlayout: default\ntitle: Psych 10/Stats 60 Syllabus - Winter 2021\n---\n\n') # noqa
+    f.write("""
+---
+layout: default
+title: Psych 10/Stats 60 Syllabus - Winter 2021
+header-includes: |
+    \\usepackage{fancyhdr}
+    \\pagestyle{fancy}
+    \\fancyhead[L]{}
+    \\fancyhead[C]{Psych 10/Stats 60 Syllabus (Winter 2021)}
+    \\fancyfoot[CO,CE]{Updated \\date{\\today}}
+---\n\n""") # noqa
     for p in prospectus_lines:
         f.write(p)
 
     f.write('## Course modules\n\nNote: This schedule is a guide for the course and is subject to change with advance notice.\n\n')
 
     for module_idx in df.index:
-        module_start_date = (start_date_dt + timedelta(days = 7 * module_idx)).strftime('%B %d')
-        module_due_date = (start_date_dt + timedelta(days = 7 * (module_idx + 1) - 1)).strftime('%B %d')
-        module_avail_date = (start_date_dt + timedelta(days = -21 * module_idx)).strftime('%B %d')
+        module_start_date = start_date_dt + timedelta(days = 7 * module_idx)
+        module_start_date_str = module_start_date.strftime('%B %d')
+
+        module_due_date = start_date_dt + timedelta(days = 7 * (module_idx + 1) - 1)
+        module_due_date_str = module_due_date.strftime('%B %d')
+
+        module_avail_date = module_start_date - timedelta(days = 14 )
         if module_avail_date < start_date_dt:
             module_avail_date = start_date_dt
+        module_avail_date_str = module_avail_date.strftime('%B %d')
+
         f.write(f'## Module {df.loc[module_idx, "Week"]}: {df.loc[module_idx, "Module Topic"]}\n\n') # noqa
 
-        f.write(f'*Start date*: {module_start_date}\n\n')
-        f.write(f'*Due date for all components*: {module_due_date}\n\n')
-        f.write(f'*Available as of*: {module_avail_date}\n\n')
+        f.write(f'*Start date*: {module_start_date_str}\n\n')
+        f.write(f'*Due date for all components*: {module_due_date_str}\n\n')
+        f.write(f'*Available as of*: {module_avail_date_str}\n\n')
     
         for section in syll_columns:
             if len(df.loc[module_idx, section]) > 0:
