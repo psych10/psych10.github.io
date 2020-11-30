@@ -55,7 +55,7 @@ Students and instructors are all adjusting to the changes and regulations that h
 The course has been heavily remodeled for Winter 2021 to adapt it to a virtual learning environment.  The course will be focused around Canvas modules, with one module for each week. Each module will include:
 
 - 1-2 chapters from the freely available online book
-- 3-4 short (5-10 min) lecture videos
+- 3-4 short (5-15 min) lecture videos
 - Web-based R programming tutorials
 - A quiz
 - Every other week there will be a problem set due.
@@ -87,7 +87,22 @@ Note that you will need to log into Zoom using your Stanford email address.  Ple
 We will use a new method of grading in this course, known as *schedule-driven grading*.  There are several important aspects of this grading system:
 
 - All assignments are graded for completion, rather than for correctness
-- Every student starts the quarter with an A+, plus two free passes.  Every missed assignment results in the loss of one half-letter grade (for example, from A+ -> A or B -> B-), except for the first two which are covered by the passes.  For example, if someone misses four assignments across the quarter, they receive an A-.
+- Every student starts the quarter with 105 points.  Every missed assignment results in the loss of 2.5 points.  The final grades are then determined by the number of points at the end of the quarter, using a standard scale (rounding fractional grades up to the nearest whole number):
+
+    - 98- : A+
+    - 92-97: A
+    - 90-91: A-
+    - 88-89: B+
+    - 82-87: B
+    - 80-81: B-
+    - 78-79: C+
+    - 72-77: C
+    - 70-71: C-
+    - 69-69: D+
+    - 62-67: D
+    - 60-61: D-
+    - <60: NP
+
 - All items in a week's module must be completed by Sunday evening of the following weekend; these deadlines are listed in Canvas and in the module schedule below.
 - Every assignment must be submitted by the stated deadline to receive credit.  The only exceptions will be for students with excused absences (such as athletic trips), students with documented accomodations from the OAE, and students with documented illness.  Any accomodations must be discussed with the teaching team prior to the deadline; no exceptions will be made for work turned in after the deadline unless it was first cleared with the teaching team.
 
@@ -101,9 +116,9 @@ The components that will be graded include:
 
 *Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.
 
-*Lecture videos*: You must watch each of the lecture videos and complete the quiz questions that are embedded in the lectures.  Each week's videos are worth one half-letter grade in total; you must complete all of the videos to avoid losing the half-letter.
+*Lecture videos*: You must watch each of the lecture videos and complete the quiz questions that are embedded in the lectures.  Each week's videos are worth 2.5 points in total; you must complete all of the videos to avoid losing the half-letter.
 
-*Course meetings*: You must attend at least one synchronous course meeting each week, or complete a makeup assignment by the following Sunday evening.
+*Course meetings*: You must attend at least one synchronous course meeting each week, or complete a makeup assignment by the module deadline.
 
 *Sections*: Sections will be focused on work related to the final project.  You must attend your weekly section meeting, or arrange in advance with your TA for a makeup activity.
 
