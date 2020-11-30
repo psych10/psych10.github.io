@@ -18,12 +18,16 @@
     - Insub Kim (he/him)
         - Contact: insubkim@stanford.edu
         - Virtual office hours:
-    - Polly Moser (she/her)
-        - Contact: pmoser2@stanford.edu
-        - Virtual office hours:
     - Erik Santoro (he/him)
         - Contact: esantoro@stanford.edu
         - Virtual office hours:
+    - Polly Darling Moser (she/her)
+        - Contact: pmoser2@stanford.edu
+        - Virtual office hours:
+
+- Course email:
+    - All class absences or requests (e.g., regrades, extensions) should be notified to the TAs through this email. Note that the TAs will respond between 9am and 8pm PST.
+        - psych10winter21@gmail.com
 
 ## Course description
 
@@ -54,7 +58,8 @@ The course has been heavily remodeled for Winter 2021 to adapt it to a virtual l
 - 3-4 short (5-10 min) lecture videos
 - Web-based R programming tutorials
 - A quiz
-- Every other week there will be a problem set due.   
+- Every other week there will be a problem set due.
+- Some modules will include milestones related to the final project.
 
 The modules for the current week as well as the following two modules will be available on Canvas throughout the quarter.  This allows you to get ahead if needed, while still ensuring a spacing of learning across the quarter that is beneficial for learning.
 
@@ -92,7 +97,7 @@ If you need an extension due to an absence for an official University trip, plea
 
 The components that will be graded include:
 
-*Quizzes*: Every week there is a quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many time as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect.
+*Quizzes*: Every week there is a quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many times as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect.
 
 *Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.
 
@@ -102,7 +107,7 @@ The components that will be graded include:
 
 *Sections*: Sections will be focused on work related to the final project.  You must attend your weekly section meeting, or arrange in advance with your TA for a makeup activity.
 
-*Final project*: Each student will participate in a group project with 3-4 other students. The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be given the opportunity to make a short presentation of their results at the finals week party.  There will be several milestons for the final project, which are included under the Final Project module on Canvas; each of these must be submitted by the deadline to avoid loss of credit.
+*Final project*: Each student will participate in a group project with 3-4 other students. The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be given the opportunity to make a short presentation of their results at the finals week party.  There will be several milestones for the final project, which are included under the Final Project module on Canvas; each of these must be submitted by the deadline to avoid loss of credit.
 
 There is no midterm or final examination for this class.
 
@@ -111,14 +116,16 @@ You can use any published resource you wish to complete the quizzes and problem 
 
 ## Office hours
 
-Prof. Poldrack will hold online co-working/office hours on Mondays from 8-9:30 AM PST, and Wednesdays 1-3 PM PST.  See Canvas for the Zoom link.  You should feel free to treat this as a co-working time; Prof. Poldrack will be there to answer  questions as needed, but you can join and lurk without asking any questions if you wish.
+Prof. Poldrack will hold online co-working/office hours on Mondays from 8-9:30 AM PST, and Wednesdays 1-3 PM PST.  See Canvas for the Zoom link.  You should feel free to treat this as a co-working time; Prof. Poldrack will be there to answer questions as needed, but you can join and lurk without asking any questions if you wish.
+
+Each of our TAs will also hold weekly office hours throughout the week. The Zoom links for each of the office hours can be found on the course's Canvas page.
 
 
 ## Discussion
 
-We will be using Campuswire to allow you to get help efficiently from both your classmates and the instructors ([class Campuswire page](https://campuswire.com/p/G201F21C2)). Please post your questions about the course material and course logistics to Campuswire so that everyone can benefit from the answer. We also highly encourage you to answer your classmates’ questions whenever possible – you will get extra practice with the material and receive feedback from the teaching team about your answers (NOTE: TAs will respond between 9am and 8pm PST). Additional guidelines about posting on Campuswire are available on the [Campuswire page](https://campuswire.com). If you did not receive an email invitation to Campuswire, please go to the [class Campuswire page](https://campuswire.com/c/GAE5DDA68) and use the code 4722 to sign up.
+We will be using Campuswire to allow you to get help efficiently from both your classmates and the instructors ([class Campuswire page](https://campuswire.com/c/G201F21C2)). Please post your questions about the course material and course logistics to Campuswire so that everyone can benefit from the answer. We also highly encourage you to answer your classmates’ questions whenever possible – you will get extra practice with the material and receive feedback from the teaching team about your answers (NOTE: TAs will respond between 9am and 8pm PST). Additional guidelines about posting on Campuswire are available on the [Campuswire page](https://campuswire.com). If you did not receive an email invitation to Campuswire, please go to the [class Campuswire page](https://campuswire.com/c/G201F21C2) and use the code 1012 to sign up.
 
-We will also use Slack for in-class discussion and for communication with the teaching team and with your fellow students.  You should have received an invitation to the class Slack channel by the first day of classes - if you didn't, please contact your TA.
+In addition, to Campuswire, we will have a course Slack group where in addition to the main class channel, each section will have their own Slack channel where section-specific announcements will be made. Please sign up here: https://join.slack.com/t/psych10winter2021/shared_invite/zt-jgtijz8i-fjh4fdpg1bxvv~lrF94yCg. 
 
 
 ## Textbook
