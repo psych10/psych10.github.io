@@ -105,7 +105,10 @@ header-includes: |
         f.write(f'## Module {df.loc[module_idx, "Week"]}: {df.loc[module_idx, "Module Topic"]}\n\n') # noqa
 
         f.write(f'*Start date*: {module_start_date_str}\n\n')
-        f.write(f'*Due date for all components*: {module_due_date_str}\n\n')
+        if module_idx == 9:
+                    f.write(f'*Due date for all components (except where explicitly noted)*: {module_due_date_str}\n\n')
+        else:
+            f.write(f'*Due date for all components*: {module_due_date_str}\n\n')
         f.write(f'*Available as of*: {module_avail_date_str}\n\n')
     
         for section in syll_columns:
