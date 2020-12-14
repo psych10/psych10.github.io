@@ -8,22 +8,22 @@
 - TAs:
     - Head TA: Nathan Kong (he/him)
         - Contact: nclkong@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Monday, 2 - 3 pm
     - Sai Auelua-Toomey (he/him)
         - Contact: sakaria4@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Wednesday, 5:30 - 6:30 pm
     - Aaron Chuey (he/him)
         - Contact: chuey@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Tuesday, 4 - 5 pm
     - Insub Kim (he/him)
         - Contact: insubkim@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Thursday, 9 - 10 am
     - Erik Santoro (he/him)
         - Contact: esantoro@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Tuesday, 10:30 - 11:30 am
     - Polly Darling Moser (she/her)
         - Contact: pmoser2@stanford.edu
-        - Virtual office hours:
+        - Virtual office hours: Friday, 9 - 10 am
 
 - Course email:
     - All class absences or requests (e.g., regrades, extensions) should be notified to the TAs through this email. Note that the TAs will respond between 9am and 8pm PST.
@@ -67,7 +67,7 @@ There will be synchronous sessions via Zoom at the scheduled class time: MWF, 10
 
 - Monday: Hands-on exercises and group work
 - Wednesday: Review of problem set (in weeks after a PSet was due), and coding exercises (including live coding by the professor and group coding exercises)
-- Friday: Q&A and review of major concepts
+- Friday: Q&A (submitted by Google docs) and review of major concepts.
 
 ## Virtual learning: norms and expectations
 
@@ -112,21 +112,21 @@ If you need an extension due to an absence for an official University trip, plea
 
 The components that will be graded include:
 
-*Quizzes*: Every week there is a quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many times as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect.
+*Quizzes*: Every week there is a Canvas quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many times as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect. Short answer questions will be graded in the week following the due date, and students will be given an opportunity to revise any answers that are not considered sufficient.
 
-*Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.
+*Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.  Please note that the problem set files will be automatically checked for plaigarism, and violators will be reported to the Office of Community Standards.
 
-*Lecture videos*: You must watch each of the lecture videos and complete the quiz questions that are embedded in the lectures.  Each week's videos are worth 2.5 points in total; you must complete all of the videos to avoid losing the half-letter.
+*Lecture videos*: You must watch each of the lecture videos, which is assessed by completion of the  questions that are embedded in each of the lectures.  Each week's videos are worth 2.5 points in total; you must complete all of the videos to avoid losing the points for that week (i.e. there is no partial credit).
 
-*Course meetings*: You must attend at least one synchronous course meeting each week, or complete a makeup assignment by the module deadline.
+*Course meetings*: You must attend at least one synchronous course meeting each week, or complete a makeup assignment by the module deadline.  You will be responsible for self-reporting your attendance on Canvas; we expect you to be honest about your attendance, and will cross-check self-reported attendance against the Zoom records.
 
-*Sections*: Sections will be focused on work related to the final project.  You must attend your weekly section meeting, or arrange in advance with your TA for a makeup activity.
+*Sections*: Sections will be focused on work related to the final project.  You must attend your weekly section meeting; if you cannot attend, you must communicate with your TA regarding how you coordinated with the group on the project that week.
 
-*Final project*: Each student will participate in a group project with 3-4 other students. The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be given the opportunity to make a short presentation of their results at the finals week party.  There will be several milestones for the final project, which are included under the Final Project module on Canvas; each of these must be submitted by the deadline to avoid loss of credit.
+*Final project*: Each student will participate in a group project with 3-4 other students. The project must test a set of specific hypotheses using a real world dataset.   The group must decide what hypotheses to test, and discuss the idea with their TA in section to get approval for the idea.  They must then do a literature review to find out what has been done on the question before, perform the analyses, and write a report on the results as well as provide the R code used to perform the entire analysis.  These reports will be peer-reviewed.  All groups will be expected to record a short virtual presentation on their results, as well as a written report.  There will be several milestones for the final project, which are included under the Final Project module on Canvas; each of these must be submitted by the deadline to avoid loss of credit.
 
 There is no midterm or final examination for this class.
 
-You can use any published resource you wish to complete the quizzes and problem sets (textbook, Internet, etc).  However, you should not discuss the answers with your fellow students unless instructed to do so by the instructors; sharing answers (including computer code) will be viewed as a violation of the Honor Code, and offending students will be reported to the Office of Community Standards.
+You can use any published resource you wish to complete the quizzes and problem sets (textbook, Internet, etc).  However, you should not discuss the answers with your fellow students unless instructed to do so by the instructors; sharing answers (including computer code) will be viewed as a violation of the Honor Code, and offending students will be reported to the Office of Community Standards. 
 
 
 ## Office hours
