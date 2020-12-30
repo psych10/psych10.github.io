@@ -140,7 +140,7 @@ Each of our TAs will also hold weekly office hours throughout the week. The Zoom
 
 We will be using Campuswire to allow you to get help efficiently from both your classmates and the instructors ([class Campuswire page](https://campuswire.com/c/G201F21C2)). Please post your questions about the course material and course logistics to Campuswire so that everyone can benefit from the answer. We also highly encourage you to answer your classmates’ questions whenever possible – you will get extra practice with the material and receive feedback from the teaching team about your answers (NOTE: TAs will respond between 9am and 8pm PST). Additional guidelines about posting on Campuswire are available on the [Campuswire page](https://campuswire.com). If you did not receive an email invitation to Campuswire, please go to the [class Campuswire page](https://campuswire.com/c/G201F21C2) and use the code 1012 to sign up.
 
-In addition, to Campuswire, we will have a course Slack group where in addition to the main class channel, each section will have their own Slack channel where section-specific announcements will be made. Please sign up here: https://join.slack.com/t/psych10winter2021/shared_invite/zt-jgtijz8i-fjh4fdpg1bxvv~lrF94yCg. 
+In addition, to Campuswire, we will have a course Slack group where in addition to the main class channel, each section will have their own Slack channel where section-specific announcements will be made. Please sign up here: https://psych10winter2021.slack.com/join/shared_invite/zt-khg5uacy-iacm99RvTp2RJxFQ7AIGeQ#/. 
 
 
 ## Textbook
