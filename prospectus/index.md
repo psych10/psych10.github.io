@@ -63,7 +63,7 @@ The course has been heavily remodeled for Winter 2021 to adapt it to a virtual l
 
 The modules for the current week as well as the following two modules will be available on Canvas throughout the quarter.  This allows you to get ahead if needed, while still ensuring a spacing of learning across the quarter that is beneficial for learning.
 
-There will be synchronous sessions via Zoom at the scheduled class time: MWF, 10:30-11:50 AM PST; you can find the links to these sessions on Canvas. Each student will be expected to attend at least one of these per week, or complete a makeup assignment.  The synchronous sessions will follow a standard thematic organization each week:
+There will be synchronous sessions via Zoom , lasting 50 minutes and starting at the scheduled class time (MWF, 10:30-11:20 AM PST); you can find the links to these sessions on Canvas. Each student will be expected to attend at least one of these per week, or complete a makeup assignment.  The synchronous sessions will follow a standard thematic organization each week:
 
 - Monday: Hands-on exercises and group work
 - Wednesday: Review of problem set (in weeks after a PSet was due), and coding exercises (including live coding by the professor and group coding exercises)
@@ -114,7 +114,7 @@ The components that will be graded include:
 
 *Quizzes*: Every week there is a Canvas quiz that must be completed by the deadline.  You must score 100% on each quiz to receive credit - you can retake it as many times as necessary to get a perfect score.  In some cases the quizzes may include short answer questions; for these questions, credit will be obtained  by making a good faith effort to answer the question, even if the answer is factually incorrect. Short answer questions will be graded in the week following the due date, and students will be given an opportunity to revise any answers that are not considered sufficient.
 
-*Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.  Please note that the problem set files will be automatically checked for plaigarism, and violators will be reported to the Office of Community Standards.
+*Problem sets*: Every other week there will be a R programming problem set due.  Problem sets will be graded for completion only, not for correctness.  We will attempt to provide feedback on individual assignments to help improve coding, but may be limited in our ability to do this for all students/problem sets.  The instructional team is always happy to meet to provide additional feedback on coding questions.  Please note that the problem set files will be automatically checked for plaigarism, and violators will be reported to the Office of Community Standards. 
 
 *Lecture videos*: You must watch each of the lecture videos, which is assessed by completion of the  questions that are embedded in each of the lectures.  Each week's videos are worth 2.5 points in total; you must complete all of the videos to avoid losing the points for that week (i.e. there is no partial credit).
 
@@ -135,6 +135,9 @@ Prof. Poldrack will hold online co-working/office hours on Mondays from 8-9:30 A
 
 Each of our TAs will also hold weekly office hours throughout the week. The Zoom links for each of the office hours can be found on the course's Canvas page.
 
+## Using Google Colab
+
+Problem sets and project analyses will be completed using [Google Colab](https://colab.research.google.com/), which is a freely available system for computatation notebooks.  Instructions for using Colab will be made available on Canvas. If you have problems accessing Google services from your geographical location, or privacy concerns regarding Google services, please contact Dr. Poldrack to discuss possible alternatives.  
 
 ## Discussion
 
